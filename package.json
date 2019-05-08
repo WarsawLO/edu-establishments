@@ -1,0 +1,21 @@
+{
+  "name": "edu-establishments",
+  "version": "0.0.1",
+  "description": "Tiny API wrapper for educational layer of Warsaw Map Service (https://mapa.um.warszawa.pl)",
+  "module": "./src/index.js",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/WarsawLO/edu-establishments",
+  "author": "micorix",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src/index.js --out-dir ./dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "babel-plugin-transform-es2015-modules-simple-commonjs": "^0.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
