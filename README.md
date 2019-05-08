@@ -122,6 +122,8 @@ Set axios' transformResponse function
     removeTransformer()
 ```
 
+Returns a function that removes current transformer
+
 #### .responseType
 
 Set response type (``arraybuffer``, ``document``, ``json``, ``text``, ``stream``).

@@ -1,5 +1,5 @@
 {
-  "name": "edu-establishments",
+  "name": "@warsawlo/edu-establishments",
   "version": "0.0.1",
   "description": "Tiny API wrapper for educational layer of Warsaw Map Service (https://mapa.um.warszawa.pl)",
   "module": "./src/index.js",
